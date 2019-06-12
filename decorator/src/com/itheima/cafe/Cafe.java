@@ -15,6 +15,7 @@ public class Cafe {
         coffee = new Sugar(coffee);
         coffee = new Chocolate(coffee);
         System.out.println("ddd");
+        System.out.println("ddd");
         System.out.println(coffee.cost());
         System.out.println(coffee.getDescription());
 
