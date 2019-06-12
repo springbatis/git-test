@@ -12,10 +12,9 @@ public class Cafe {
 //
 //        coffee = new Decorator(coffee);//装饰之后赋值给当前引用
 //        System.out.println(coffee.cost());
-        int a=10;
-        System.out.println("new branch");
         coffee = new Sugar(coffee);
         coffee = new Chocolate(coffee);
+        System.out.println("ddd");
         System.out.println(coffee.cost());
         System.out.println(coffee.getDescription());
 
