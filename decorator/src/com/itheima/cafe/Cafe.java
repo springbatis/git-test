@@ -17,6 +17,9 @@ public class Cafe {
         System.out.println("b");
         System.out.println("ddd");
         System.out.println(coffee.cost());
+        int a=0;
+        int b=3;
+        System.out.println(a+b);
         System.out.println(coffee.getDescription());
         for (int i = 0; i < 10; i++) {
             System.out.println(i);
