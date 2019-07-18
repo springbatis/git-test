@@ -18,6 +18,8 @@ public class Cafe {
         System.out.println("ddd");
         System.out.println(coffee.cost());
         System.out.println(coffee.getDescription());
-
+        for (int i = 0; i < 10; i++) {
+            System.out.println(i);
+        }
     }
 }
